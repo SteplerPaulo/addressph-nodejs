@@ -3,6 +3,14 @@
 
 Created Using NodeJs, MySQL, ExpressJs, Sequelize
 
+How to use?
+
+Step 1: Clone or download repo
+Step 2: Import addressph.sql
+Step 3: RUN npm install
+Step 4: RUN npm start
+Step 5: That's it! Thank you! ^_^
+
 How to consume?
 
 SAMPLE FIND ALL
