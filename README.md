@@ -8,7 +8,7 @@ How to use?
 Step 1: Clone or download repo
 Step 2: Import addressph.sql
 Step 3: RUN npm install
-Step 4: RUN npm start
+Step 4: RUN nodemon
 Step 5: That's it! Thank you! ^_^
 
 How to consume?
