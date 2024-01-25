@@ -1,31 +1,33 @@
-# addressph-nodejs
- Philippines Address API
+# Philippines Address API
 
-Created Using NodeJs, MySQL, ExpressJs, Sequelize
+This API provides address data specifically tailored for the Philippines.
 
-How to use?
+## Prerequisites
 
-Step 1: Clone or download repo
-Step 2: Import addressph.sql
-Step 3: RUN npm install
-Step 4: RUN nodemon
-Step 5: That's it! Thank you! ^_^
+Before using this API, ensure you have the following prerequisites:
 
-How to consume?
+- Node.js installed on your system
+- MySQL database setup with the `addressph` schema imported from `addressph.sql`
 
-SAMPLE FIND ALL
-###
-GET http://localhost:8081/api/barangays
-###
-GET http://localhost:8081/api/countries
-###
-GET http://localhost:8081/api/municipalities
+## How to Use
 
-###
-GET http://localhost:8081/api/provinces
+To get started with the Philippines Address API:
 
-SAMPLE FIND WITH FILTER
-###
-GET http://localhost:8081/api/municipalities?name=Lipa City
-###
-GET http://localhost:8081/api/provinces?name=Batangas
+1. Clone or download the repository.
+2. Import the `addressph.sql` file into your MySQL database.
+3. Install dependencies by running `npm install`.
+4. Start the server by running `nodemon`.
+5. You're all set! 😊
+
+
+## Sample Requests
+
+#### Find All Addresses
+- `GET /api/barangays`
+- `GET /api/countries`
+- `GET /api/municipalities`
+- `GET /api/provinces`
+
+#### Find Addresses with Filters
+- `GET /api/municipalities?name=Lipa City`
+- `GET /api/provinces?name=Batangas`
